@@ -32,7 +32,7 @@ class watch_faceView extends WatchUi.WatchFace {
                 hours = hours - 12;
             }
         } else {
-            if (Application.Properties.getValue("UseMilitaryFormat")) {
+            if (Application.getApp().getProperty("UseMilitaryFormat")) {
                 timeFormat = "$1$$2$";
                 hours = hours.format("%02d");
             }
