@@ -41,7 +41,7 @@ class watch_faceView extends WatchUi.WatchFace {
 
         // Update the view
         var view = View.findDrawableById("TimeLabel") as Text;
-        view.setColor(Application.getApp().getProperty("ForegroundColor") as Number);
+        // view.setColor(Application.getApp().getProperty("ForegroundColor") as Number);
         view.setText(timeString);
 
         // Call the parent onUpdate function to redraw the layout
