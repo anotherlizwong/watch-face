@@ -1,5 +1,0 @@
-<drawable-list id="shapes" background="Graphics.COLOR_TRANSPARENT">
-     <bitmap id="wilson" x="112" y="85" filename="../drawables/wilson.png" />
-     <bitmap id="watch_layout" x="10" y="38" filename="../drawables/watch-layout-items.png" />
-     <bitmap id="background_image" x="0" y="0" filename="../drawables/background.png" />
-</drawable-list>

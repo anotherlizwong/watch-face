@@ -1,7 +1,5 @@
 <layout id="WatchFace" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://developer.garmin.com/downloads/connect-iq/resources.xsd">
-    <drawable class="Background" />
     <bitmap id="background_image" x="0" y="0" filename="../drawables/background.png" />
-    <bitmap id="watch_layout" x="10" y="38" filename="../drawables/watch-layout-items.png" />
     <bitmap id="wilson" x="112" y="85" filename="../drawables/wilson.png" />
-    <label id="TimeLabel" x="center" y="10" font="Graphics.FONT_LARGE" justification="Graphics.TEXT_JUSTIFY_RIGHT" color="Graphics.COLOR_WHITE" />
+    <label id="TimeLabel" x="140" y="10" font="Graphics.FONT_LARGE" justification="Graphics.TEXT_JUSTIFY_RIGHT" color="Graphics.COLOR_WHITE" />
 </layout>
