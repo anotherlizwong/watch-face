@@ -40,8 +40,10 @@ class watch_faceView extends WatchUi.WatchFace {
         var timeString = Lang.format(timeFormat, [hours, clockTime.min.format("%02d")]);
 
         // Update the view
+        var viewShadow = View.findDrawableById("TimeShadow") as Text;
+        viewShadow.setText(timeString);
+
         var view = View.findDrawableById("TimeLabel") as Text;
-        // view.setColor(Application.getApp().getProperty("ForegroundColor") as Number);
         view.setText(timeString);
 
         // Call the parent onUpdate function to redraw the layout
