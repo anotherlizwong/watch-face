@@ -84,3 +84,14 @@ https://developer.garmin.com/connect-iq/core-topics/graphics/
 
 https://github.com/garmin/connectiq-apps/blob/master/watchfaces/TypedFace/source/Complications/ComplicatedBattery.mc
 https://github.com/garmin/connectiq-apps/blob/master/watchfaces/TypedFace/resources/drawables/drawables.xml
+
+
+### trial and error
+
+#### sprites
+* uploading a bitmap larger than the screensize of the watch causes an error
+* version 1.4.0 doesn't appear to allow slicing bitmaps
+* there's still an opportunity to reuse parts of the pngs. for instance,
+  * each png uses the same black border. that can be reused under each png
+  * each png also has the same background, that can be reused under each png
+  * each png has a solid color that is a percentage decrease, that can be a drawn rectangle underneath the png
