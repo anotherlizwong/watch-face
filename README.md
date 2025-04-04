@@ -78,3 +78,9 @@ function getStressScore() {
 getStressScore();
 
 ```
+
+
+https://developer.garmin.com/connect-iq/core-topics/graphics/
+
+https://github.com/garmin/connectiq-apps/blob/master/watchfaces/TypedFace/source/Complications/ComplicatedBattery.mc
+https://github.com/garmin/connectiq-apps/blob/master/watchfaces/TypedFace/resources/drawables/drawables.xml
