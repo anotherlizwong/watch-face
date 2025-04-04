@@ -1,9 +1,9 @@
 <layout id="WatchFace" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://developer.garmin.com/downloads/connect-iq/resources.xsd">
     <bitmap id="background_image" x="0" y="0" filename="../drawables/background.png" />
-    <bitmap id="hunger" x="20" y="43" filename="../drawables/hunger-75.png" />
-    <bitmap id="sanity" x="144" y="56" filename="../drawables/sanity-50.png" />
-    <bitmap id="health" x="57" y="121" filename="../drawables/health-100.png" />
+    <bitmap id="hunger" x="13" y="40" filename="../drawables/sprite_r2_c1.png" />
+    <bitmap id="sanity" x="129" y="40" filename="../drawables/sprite_r1_c1.png" />
+    <bitmap id="health" x="40" y="106" filename="../drawables/sprite_r3_c1.png" />
     <bitmap id="wilson" x="112" y="85" filename="../drawables/wilson.png" />
-    <label id="TimeShadow" x="140" y="7" font="Graphics.FONT_LARGE" justification="Graphics.TEXT_JUSTIFY_RIGHT" color="Graphics.COLOR_BLACK" />
-    <label id="TimeLabel" x="140" y="10" font="Graphics.FONT_LARGE" justification="Graphics.TEXT_JUSTIFY_RIGHT" color="Graphics.COLOR_WHITE" />
+    <label id="TimeShadow" x="136" y="7" font="Graphics.FONT_LARGE" justification="Graphics.TEXT_JUSTIFY_RIGHT" color="Graphics.COLOR_BLACK" />
+    <label id="TimeLabel" x="136" y="10" font="Graphics.FONT_LARGE" justification="Graphics.TEXT_JUSTIFY_RIGHT" color="Graphics.COLOR_WHITE" />
 </layout>
