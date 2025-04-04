@@ -4,6 +4,6 @@
     <bitmap id="sanity" x="129" y="40" filename="../drawables/sprite_r1_c1.png" />
     <bitmap id="health" x="40" y="106" filename="../drawables/sprite_r3_c1.png" />
     <bitmap id="wilson" x="112" y="85" filename="../drawables/wilson.png" />
-    <label id="TimeShadow" x="140" y="7" font="Graphics.FONT_LARGE" justification="Graphics.TEXT_JUSTIFY_RIGHT" color="Graphics.COLOR_BLACK" />
-    <label id="TimeLabel" x="140" y="10" font="Graphics.FONT_LARGE" justification="Graphics.TEXT_JUSTIFY_RIGHT" color="Graphics.COLOR_WHITE" />
+    <label id="TimeShadow" x="136" y="7" font="Graphics.FONT_LARGE" justification="Graphics.TEXT_JUSTIFY_RIGHT" color="Graphics.COLOR_BLACK" />
+    <label id="TimeLabel" x="136" y="10" font="Graphics.FONT_LARGE" justification="Graphics.TEXT_JUSTIFY_RIGHT" color="Graphics.COLOR_WHITE" />
 </layout>
