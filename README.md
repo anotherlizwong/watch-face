@@ -85,6 +85,15 @@ https://developer.garmin.com/connect-iq/core-topics/graphics/
 https://github.com/garmin/connectiq-apps/blob/master/watchfaces/TypedFace/source/Complications/ComplicatedBattery.mc
 https://github.com/garmin/connectiq-apps/blob/master/watchfaces/TypedFace/resources/drawables/drawables.xml
 
+### Complicated drawable
+https://developer.garmin.com/connect-iq/core-topics/resources//#bitmaps
+https://developer.garmin.com/connect-iq/api-docs/Toybox/WatchUi.html#loadResource-instance_function
+
+### Arc draw
+`dc.drawArc(_centerX, _centerY, _radius, Graphics.ARC_CLOCKWISE, 90, 90 - (360 * (percent / 100.0)));`
+https://github.com/garmin/connectiq-apps/blob/master/watchfaces/TypedFace/source/Complications/ComplicatedDrawable.mc#L73
+
+https://developer.garmin.com/connect-iq/api-docs/Toybox/Graphics/Dc.html#drawArc-instance_function
 
 ### trial and error
 
