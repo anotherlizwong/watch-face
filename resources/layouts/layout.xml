@@ -1,6 +1,12 @@
 <layout id="WatchFace" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://developer.garmin.com/downloads/connect-iq/resources.xsd">
     <bitmap id="background_image" x="0" y="0" filename="../drawables/background.png" />
-    <bitmap id="hunger" x="13" y="40" filename="../drawables/sprite_r2_c1.png" />
+    <!-- <bitmap id="hunger" x="13" y="40" filename="../drawables/sprite_r2_c1.png" /> -->
+    <drawable id="Hunger" class="ComplicationDrawable">
+         <!-- <param name="locX">dc.getWidth() / 2</param>
+        <param name="locY">dc.getHeight() * .12</param> -->
+    </drawable>
+
+
     <bitmap id="sanity" x="129" y="40" filename="../drawables/sprite_r1_c1.png" />
     <bitmap id="health" x="40" y="106" filename="../drawables/sprite_r3_c1.png" />
     <bitmap id="wilson" x="112" y="85" filename="../drawables/wilson.png" />
